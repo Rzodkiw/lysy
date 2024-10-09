@@ -1,0 +1,32 @@
+header{
+    background-color: #7851F0;
+    color:whitesmoke;
+    padding: 5%;
+}
+nav{
+    background-color: #E051F0;
+    color:whitesmoke;
+    padding: 5%;
+}
+main{
+  
+    background-color: #AC51F0;
+    color:whitesmoke;
+    padding: 5%;
+}
+aside{
+    float: right;
+    background-color: #515EF0;
+    color:whitesmoke;
+    padding: 5%;
+}
+footer{
+    background-color: #F542A9;
+    color:whitesmoke;
+    padding: 5%;
+}
+section{
+    background-color:#BE76F5;
+    color:whitesmoke;
+    padding: 5%;
+}
