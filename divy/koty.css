@@ -1,0 +1,48 @@
+#div1{
+    margin: auto;
+    float: left;
+    background-color: blueviolet;
+    width: 33%;
+}
+#kot1{
+    clear: both;
+    float: right;
+}
+#tekts1{
+    clear: both;
+    float: left;
+    color: azure;
+}
+#div2{
+    margin: auto;
+    float: right;
+    clear: both;
+    width: 33%;
+    background-color:cadetblue;
+}
+#kot2{
+    padding-left: 10%;
+    clear: both;
+    float: left;
+}
+#tekts2{
+    clear: both;
+    float: right;
+    color: azure;
+}
+#div3{
+padding-left: 10%;
+margin: auto;
+clear: both;
+width: 33%;
+background-color: aqua;
+}
+#kot3{
+    clear: both;
+    padding-left: 20%;
+}
+#tekts3{
+    padding-left: 1%;
+    color: azure;
+    clear: both;
+}
