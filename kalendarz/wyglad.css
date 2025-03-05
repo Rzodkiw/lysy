@@ -1,0 +1,15 @@
+td{
+    border: 3px dashed khaki;
+    color: lightgoldenrodyellow;
+    letter-spacing: 1em;
+    text-align: center;
+}
+table{
+    border: 5px inset rebeccapurple;
+    background-color: cornflowerblue;
+    box-shadow: 10px 10px 10px greenyellow;
+}
+th{
+    background:linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    color:white;
+}
