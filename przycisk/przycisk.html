@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="przycisk.css">
+</head>
+<body>
+    <button onclick="zdjecie()">zdjecie</button><br>
+ 
+    <img src="wilk.jpg" id="zdjecie"><br>
+    <script>
+        function zdjecie() {
+            document.getElementById("zdjecie").style.border = "thick solid #0000FF"; 
+        }
+        </script>
+
+            
+<button onclick="napis()">napis</button><br>         
+    <p id="napis"> Dziwko to trójmiasto</p><br>
+    <script>
+        function napis() {
+            document.getElementById("napis").style.marginTop = "50px";
+            document.getElementById("napis").style.textDecorationLine = "underline";
+            document.getElementById("napis").style.textAlign = "center"; 
+        }
+        </script>
+<button onclick="tabelka()">tabelka</button><br>  
+<table id="tabelka">
+<th id="dane">Imie</th>
+<th id="dane">Nazwisko</th>
+<th id="dane">Klasa</th>  
+<tr> 
+<th id="dane">Wiktor</th>
+<th id="dane">Dulski</th>
+<th id="dane">4F</th>
+</table>
+<script>
+    function tabelka() {
+        document.getElementById("tabelka").style.color = "blue"; 
+        document.getElementById("tabelka").style.borderColor = "lightblue"; 
+        document.getElementById("tabelka").style.borderStyle = "inset"; 
+        document.getElementById("tabelka").style.borderRadius = "25px"; 
+    }
+    </script>
+    <button onclick="reset()">reset</button>
+    <script>
+        function reset() {
+            document.getElementById("tabelka").style.color = ""; 
+            document.getElementById("tabelka").style.borderColor = ""; 
+            document.getElementById("tabelka").style.borderStyle = ""; 
+            document.getElementById("tabelka").style.borderRadius = ""; 
+            document.getElementById("napis").style.marginTop = "";
+            document.getElementById("napis").style.textDecorationLine = "";
+            document.getElementById("napis").style.textAlign = ""; 
+            document.getElementById("zdjecie").style.border = ""; 
+        }
+        </script>
+</body>
+</html>
