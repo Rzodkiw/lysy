@@ -1,0 +1,40 @@
+table{
+    border: 2px pink solid;
+}
+tr{
+    border: 2px palevioletred solid;
+}
+td{
+    border: 2px purple solid;
+    background-color: pink;
+}
+img{
+    height: 1500px;
+    width: 1500px;
+}
+ol{
+    list-style-type: georgian;
+    
+    
+}
+ul{
+    list-style-type: square;
+}
+dt {
+    margin-left: 75px;
+    color:aqua ;
+    background-color: beige;
+}
+dd {
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+dl{
+    border: 2px;
+    border-color: fuchsia;
+    border-style:dashed;
+}
+li{
+    font-style: oblique;
+}
