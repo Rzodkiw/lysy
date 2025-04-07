@@ -1,0 +1,42 @@
+header{
+    height: 200px;
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+#dol{
+display: flex;
+width: 100%;
+height: 400px;
+}
+#lewo{
+    width: 20%;
+    background-color: blueviolet;
+}
+#prawo{
+    width: 80%;
+    background-color: chartreuse;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    color: pink;
+    font-size: 12em;
+    font-family: Arial;
+    text-align: center;
+}
+table{
+    width: 60%;
+    border: 1px solid black;
+    text-align: center;
+}
+tr{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
