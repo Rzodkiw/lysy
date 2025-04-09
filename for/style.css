@@ -1,0 +1,10 @@
+div{
+    text-align: center;
+    margin-bottom: 5px;
+    border: 5px red solid;
+    float: left;
+    width: 7%;
+}
+img{
+    width: 80%;
+}
